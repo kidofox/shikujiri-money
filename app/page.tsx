@@ -760,33 +760,27 @@ export default function Page() {
                 秘密厳守・名前だけで相談可能
               </p>
 
+              {/* A8.net バナー型アフィリエイトリンク */}
               <a
-                href="https://px.a8.net/svt/ejp?a8mat=4B1ATG+CBJYGI+4FR4+BXQOI"
+                href="https://px.a8.net/svt/ejp?a8mat=4B1ATH+5TKLPU+4FR4+5YRHE"
                 rel="nofollow"
-                style={{
-                  display: "block",
-                  width: "100%",
-                  padding: "18px",
-                  background: "linear-gradient(135deg, #6366f1, #8b5cf6)",
-                  border: "none",
-                  borderRadius: "14px",
-                  color: "#fff",
-                  fontSize: "17px",
-                  fontWeight: "700",
-                  textDecoration: "none",
-                  letterSpacing: "0.04em",
-                  boxShadow: "0 4px 28px rgba(99,102,241,0.45)",
-                  boxSizing: "border-box",
-                }}
+                style={{ display: "block", textAlign: "center" }}
               >
-                無料で専門家に相談してみる →
+                <img
+                  border={0}
+                  width={468}
+                  height={60}
+                  alt=""
+                  src="https://www22.a8.net/svt/bgt?aid=260401157352&wid=001&eno=01&mid=s00000020704001022000&mc=1"
+                  style={{ maxWidth: "100%", height: "auto", borderRadius: "10px" }}
+                />
               </a>
               {/* A8.net 計測用ピクセル */}
               <img
                 border={0}
                 width={1}
                 height={1}
-                src="https://www10.a8.net/0.gif?a8mat=4B1ATG+CBJYGI+4FR4+BXQOI"
+                src="https://www12.a8.net/0.gif?a8mat=4B1ATH+5TKLPU+4FR4+5YRHE"
                 alt=""
                 style={{ display: "block" }}
               />
